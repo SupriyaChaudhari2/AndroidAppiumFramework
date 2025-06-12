@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-10T19:38:13 CEST" name="Suite" finished-at="2025-06-10T19:39:49 CEST" duration-ms="96179">
+    <groups>
+    </groups>
+    <test started-at="2025-06-10T19:38:13 CEST" name="Verify Add expenses" finished-at="2025-06-10T19:38:42 CEST" duration-ms="29466">
+      <class name="SupriyaAssignment.Android.AddExpenses">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:SupriyaAssignment.Android.AddExpenses@7486b455]" started-at="2025-06-10T19:38:13 CEST" name="configureAppium" finished-at="2025-06-10T19:38:22 CEST" duration-ms="9446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAppium -->
+        <test-method is-config="true" signature="handleSplash()[pri:0, instance:SupriyaAssignment.Android.AddExpenses@7486b455]" started-at="2025-06-10T19:38:22 CEST" name="handleSplash" finished-at="2025-06-10T19:38:30 CEST" duration-ms="7142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleSplash -->
+        <test-method signature="AddfirstExpense(java.lang.String,java.lang.String)[pri:0, instance:SupriyaAssignment.Android.AddExpenses@7486b455]" started-at="2025-06-10T19:38:30 CEST" name="AddfirstExpense" data-provider="getData" finished-at="2025-06-10T19:38:41 CEST" duration-ms="11746" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[300]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test Expense]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddfirstExpense -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:SupriyaAssignment.Android.AddExpenses@7486b455]" started-at="2025-06-10T19:38:41 CEST" name="teardown" finished-at="2025-06-10T19:38:42 CEST" duration-ms="1098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- SupriyaAssignment.Android.AddExpenses -->
+    </test> <!-- Verify Add expenses -->
+    <test started-at="2025-06-10T19:38:43 CEST" name="Verify Add Income" finished-at="2025-06-10T19:39:13 CEST" duration-ms="29793">
+      <class name="SupriyaAssignment.Android.AddIncome">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:SupriyaAssignment.Android.AddIncome@7d9f158f]" started-at="2025-06-10T19:38:43 CEST" name="configureAppium" finished-at="2025-06-10T19:38:52 CEST" duration-ms="9370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAppium -->
+        <test-method is-config="true" signature="handleSplash()[pri:0, instance:SupriyaAssignment.Android.AddIncome@7d9f158f]" started-at="2025-06-10T19:38:52 CEST" name="handleSplash" finished-at="2025-06-10T19:38:59 CEST" duration-ms="7220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleSplash -->
+        <test-method signature="AddfirstIncome()[pri:0, instance:SupriyaAssignment.Android.AddIncome@7d9f158f]" started-at="2025-06-10T19:38:59 CEST" name="AddfirstIncome" finished-at="2025-06-10T19:39:11 CEST" duration-ms="11989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddfirstIncome -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:SupriyaAssignment.Android.AddIncome@7d9f158f]" started-at="2025-06-10T19:39:11 CEST" name="teardown" finished-at="2025-06-10T19:39:13 CEST" duration-ms="1211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- SupriyaAssignment.Android.AddIncome -->
+    </test> <!-- Verify Add Income -->
+    <test started-at="2025-06-10T19:39:13 CEST" name="Verify Add DeleteExpense" finished-at="2025-06-10T19:39:49 CEST" duration-ms="36612">
+      <class name="SupriyaAssignment.Android.DeleteExpense">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:SupriyaAssignment.Android.DeleteExpense@3214ee6]" started-at="2025-06-10T19:39:13 CEST" name="configureAppium" finished-at="2025-06-10T19:39:22 CEST" duration-ms="9907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAppium -->
+        <test-method is-config="true" signature="handleSplash()[pri:0, instance:SupriyaAssignment.Android.DeleteExpense@3214ee6]" started-at="2025-06-10T19:39:22 CEST" name="handleSplash" finished-at="2025-06-10T19:39:30 CEST" duration-ms="7262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleSplash -->
+        <test-method signature="DeleteExpenses()[pri:0, instance:SupriyaAssignment.Android.DeleteExpense@3214ee6]" started-at="2025-06-10T19:39:30 CEST" name="DeleteExpenses" finished-at="2025-06-10T19:39:48 CEST" duration-ms="18180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteExpenses -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:SupriyaAssignment.Android.DeleteExpense@3214ee6]" started-at="2025-06-10T19:39:48 CEST" name="teardown" finished-at="2025-06-10T19:39:49 CEST" duration-ms="1259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- SupriyaAssignment.Android.DeleteExpense -->
+    </test> <!-- Verify Add DeleteExpense -->
+  </suite> <!-- Suite -->
+</testng-results>
